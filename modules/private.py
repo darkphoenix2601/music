@@ -7,7 +7,7 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
+    await message.reply_sticker("CAACAgUAAxkBAAELcSphJP9zfZgHUVwbgJr3ctDcwXj2rAACuAcAArHWCFUxMUPx-GRPIiAE")
     await message.reply_text(
         f"""**Hemlo 👋 
 I am One Music Bot, Use me to play music in your groups Voice Chat.
@@ -27,7 +27,12 @@ Owner - @SherShahxD**
                     InlineKeyboardButton(
                         "🌍 Chat Group", url="https://t.me/friends_ka_adda"
                     )
-                ],[ 
+                ],
+                [ 
+                    InlineKeyboardButton(
+                        "🤔Commands", url="https://t.me/OneUpdates/2"
+                    )],
+                [ 
                     InlineKeyboardButton(
                         "➕ Add To Your Group ➕", url="https://t.me/OneMusicRoBot?startgroup=true"
                     )]
@@ -43,7 +48,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList")
+                        "🌍 Chat Group", url="https://t.me/friends_ka_adda")
                 ]
             ]
         )
