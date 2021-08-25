@@ -10,22 +10,22 @@ async def start(_, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAELcSphJP9zfZgHUVwbgJr3ctDcwXj2rAACuAcAArHWCFUxMUPx-GRPIiAE")
     await message.reply_text(
         f"""**Hemlo 👋 
-I am One Music Bot, Use me to play music in your groups Voice Chat.
+I am dark music Bot, Use me to play music in your groups Voice Chat.
 Hosted On VPS, So no lag
 ✅Need Help /help 
-Owner - @SherShahxD**
+Owner - @akshi_s_ashu**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Support", url="https://t.me/{SUPPORT_GROUP}"
+                        "💬 Support", url="https://t.me/phoenix_music_suport}"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Updates", url="https://t.me/{UPDATES_CHANNEL}"
+                        "🔊 Updates", url="https://t.me/phoenix_music_new}"
                     ),
                     InlineKeyboardButton(
-                        "🌍 Chat Group", url="https://t.me/friends_ka_adda"
+                        "🌍 Chat Group", url="https://t.me/red_vibe_s"
                     )
                 ],
                 [ 
@@ -34,7 +34,7 @@ Owner - @SherShahxD**
                     )],
                 [ 
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/OneMusicRoBot?startgroup=true"
+                        "➕ Add To Your sexy group ➕", url="https://t.me/OneMusicRoBot?startgroup=true"
                     )]
             ]
         ),
@@ -43,12 +43,12 @@ Owner - @SherShahxD**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**One Music Bot Online ✅**""",
+      await message.reply_text("""**dark music online ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌍 Chat Group", url="https://t.me/friends_ka_adda")
+                        "🌍 Chat Group", url="https://t.me/red_vibe_s")
                 ]
             ]
         )
